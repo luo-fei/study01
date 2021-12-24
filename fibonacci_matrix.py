@@ -1,5 +1,6 @@
 import numpy as np
 
+
 ### 1
 def fib_matrix(n):
     for i in range(n):
@@ -8,7 +9,7 @@ def fib_matrix(n):
 
 
 # 调用
-fib_matrix(50)
+fib_matrix(100)
 
 ### 2
 # 使用矩阵计算斐波那契数列
@@ -24,6 +25,6 @@ def Fibonacci_Matrix(n):
     return result_list
 
 # 调用
-Fibonacci_Matrix(50)
+Fibonacci_Matrix(100)
 
 ### pow 速度 比 双**号快, np.linalg.matrix_power也是一种方法
